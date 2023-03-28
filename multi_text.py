@@ -1,7 +1,7 @@
 # install python
 # install vscode
 # make folder with code and numbers.txt file
-# format for numbers.txt is Name:+1Number
+# format for numbers.txt is Name:+1Number (NO EXTRA LINES)
 # modify message with your own message
 
 import subprocess

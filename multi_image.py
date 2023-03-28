@@ -1,5 +1,6 @@
 import subprocess
 from time import sleep
+import os
 
 script = '''
 tell application "Messages"
@@ -19,7 +20,7 @@ with open("numbers.txt", "r") as f :
         names.append(line.split(':')[0])
 
 
-image_path = "filename"
+image_path = os.path.abspath("filename")
 
 your_service_id = service_id 
 
